@@ -75,6 +75,6 @@ size = 1024
 img = Image.new("RGB", (size, size), (255, 255, 255))
 draw(lambda z: cubed(z), lambda z: dcubed(z), img, size, "fig1.png");
 draw(lambda z: squared(z), lambda z: dsquared(z), img, size, "fig2.png");
-draw(lambda z: fun(z), lambda z: dfun(z), img, size, "fig4.png");
-draw(lambda z: cubedplus(z), lambda z: dcubedplus(z), img, size, "fig5.png");
-draw(lambda z: fifth(z), lambda z: dfifth(z), img, size, "fig6.png");
+draw(lambda z: fun(z), lambda z: dfun(z), img, size, "fig3.png");
+draw(lambda z: cubedplus(z), lambda z: dcubedplus(z), img, size, "fig4.png");
+draw(lambda z: fifth(z), lambda z: dfifth(z), img, size, "fig5.png");
